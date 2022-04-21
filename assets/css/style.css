@@ -112,9 +112,9 @@ main h3 {
 
 .bio-image {
   justify-self: flex-start;
-  height: 200px;
-  width: 200px;
-  border-radius: 10px;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
   box-shadow: 10px 5px 5px rgba(1, 51, 40, .5);
   margin: 80px 200px;
 }
@@ -145,6 +145,7 @@ width: 150px;
   width: 50%;
   margin: 50px auto;
   border: 2px solid rgba(1, 51, 40, .5);
+  border-radius: 5px;
 }
 
 .contact-section {
