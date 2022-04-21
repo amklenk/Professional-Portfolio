@@ -36,14 +36,14 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
+  align-content: center;
   font-family: 'Raleway', sans-serif;
-  background-color: var(--quarternary-color);
+  background-color: #fff;
 }
 
 main h3 {
   position: relative;
   font-size: 30px;
-  color: var(--primary-color);
   border-bottom: 2px solid var(--tertiary-color);
   justify-self: center;
   margin: 20px 680px;
@@ -99,12 +99,13 @@ main h3 {
   color: var(--quarternary-color);
 }
 
-.about-section, .portfolio-section {
-  border-bottom: 3px solid var(--secondary-color);
-}
 .about-section {
   display: flex;
   flex-wrap: wrap;
+}
+
+.about-section, .portfolio-section h3 {
+  color: var(--primary-color);
 }
 
 .bio-image {
@@ -124,6 +125,10 @@ main h3 {
   font-weight: bold;
 }
 
+.portfolio-section{
+  background-color: var(--quarternary-color);
+}
+
 .portfolio-section p{
 color: var(--quarternary-color);
 text-decoration: none;
@@ -141,9 +146,16 @@ width: 150px;
   border: 2px solid rgba(1, 51, 40, .5);
 }
 
-.project-image{
-  width: 400px;
-  height: 400px;
+.contact-section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: var(--primary-color);
+  color: var(--quarternary-color);
+}
+
+.contact-section h3 {
+  color: var(--quarternary-color);
 }
 
 /*id selectors*/
