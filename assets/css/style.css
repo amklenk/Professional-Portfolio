@@ -37,7 +37,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: 'Raleway', sans-serif;
-  background-color: var(--secondary-color);
+  background-color: var(--quarternary-color);
 }
 
 main h3 {
@@ -46,7 +46,7 @@ main h3 {
   color: var(--primary-color);
   border-bottom: 2px solid var(--tertiary-color);
   justify-self: center;
-  margin: 20px 675px;
+  margin: 20px 680px;
 }
 
 /*class selectors*/
@@ -88,13 +88,20 @@ main h3 {
 }
 
 .nav-links {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.nav-links li {
   list-style: none;
-}
-
-.nav-sections li {
   text-decoration: none;
+  color: var(--quarternary-color);
 }
 
+.about-section, .portfolio-section {
+  border-bottom: 3px solid var(--secondary-color);
+}
 .about-section {
   display: flex;
   flex-wrap: wrap;
@@ -117,13 +124,21 @@ main h3 {
   font-weight: bold;
 }
 
+.portfolio-section p{
+color: var(--quarternary-color);
+text-decoration: none;
+background-color: var(--quinary-color);
+width: 150px;
+}
+
 .projects-grid{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 75%;
+  width: 50%;
   margin: 50px auto;
+  border: 2px solid rgba(1, 51, 40, .5);
 }
 
 .project-image{
@@ -132,4 +147,47 @@ main h3 {
 }
 
 /*id selectors*/
+#tile1{
+  height: 400px;
+  width: 100%;
+  background-image: URL(../images/run-buddy.png);
+  background-size: cover;
+}
+
+#tile2{
+  width: 50%;
+  height: 200px;
+  background-image: URL(../images/css100.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#tile3{
+  width: 50%;
+  height: 200px;
+  background-image: URL(../images/technical.png);
+  background-size: cover;
+}
+
+#tile4{
+  width: 50%;
+  height: 200px;
+  background-image: URL(../images/ice-cream.png);
+  background-size: cover;
+}
+
+#tile5{
+  width: 50%;
+  height: 200px;
+  background-image: URL(../images/chunky.png);
+  background-size: cover;
+}
+
+#tile6{
+  width: 100%;
+  height: 200px;
+  background-image: URL(../images/tribute-page.png);
+  background-size: cover;
+  background-position: center;
+}
 
