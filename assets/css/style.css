@@ -41,6 +41,12 @@ body {
   background-color: #fff;
 }
 
+a {
+  text-decoration: none;
+  color: var(--quarternary-color); 
+  }
+  
+
 main h3 {
   position: relative;
   font-size: 30px;
@@ -68,9 +74,7 @@ main h3 {
 }
 
 .hero-title a {
-  color: var(--quarternary-color);
   font-size: 50px;
-  text-decoration: none;
 }
 
 .span-name {
@@ -82,7 +86,6 @@ main h3 {
   font-size: 20px;
   justify-self: center;
   align-self: center;
-  text-decoration: none;
   padding: 2px 2px;
   border: 3px solid var(--quinary-color);
 }
@@ -95,7 +98,6 @@ main h3 {
 
 .nav-links li {
   list-style: none;
-  text-decoration: none;
   color: var(--quarternary-color);
 }
 
@@ -131,7 +133,6 @@ main h3 {
 
 .portfolio-section p{
 color: var(--quarternary-color);
-text-decoration: none;
 background-color: var(--quinary-color);
 width: 150px;
 }
