@@ -99,15 +99,12 @@ footer {
   border: 3px solid var(--quinary-color);
 }
 
-.nav-links {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-}
-
 .nav-links li {
   list-style: none;
   color: var(--quarternary-color);
+  display: inline;
+  margin: 5px 20px 5px 20px;
+  font-size: 20px;
 }
 
 .about-section {
@@ -138,7 +135,7 @@ footer {
 
 .portfolio-section {
   background-color: var(--quarternary-color);
-  margin-top: 10px;
+  padding-top: 10px;
   padding-bottom: 10px;
 }
 
@@ -146,7 +143,7 @@ footer {
   color: var(--quarternary-color);
   background-color: var(--quinary-color);
   width: 150px;
-  margin: 50px;
+  margin: 10px;
 }
 
 .projects-grid {
