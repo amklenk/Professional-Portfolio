@@ -48,11 +48,10 @@ a {
   
 
 main h3 {
-  position: relative;
   font-size: 30px;
-  border-bottom: 2px solid var(--tertiary-color);
-  justify-self: center;
-  margin: 20px 680px;
+  border-right: 2px solid var(--tertiary-color);
+  margin: 50px 100px;
+  padding-right: 20px;
 }
 
 /*class selectors*/
@@ -64,6 +63,7 @@ main h3 {
   flex-wrap: wrap;
   flex-direction: column;
   background-color: var(--primary-color);
+  background-image: URL(../images/hero2.png);
   background-size: cover;
 }
 
@@ -111,7 +111,6 @@ main h3 {
 }
 
 .bio-image {
-  justify-self: flex-start;
   height: 300px;
   width: 300px;
   border-radius: 50%;
@@ -120,7 +119,6 @@ main h3 {
 }
 
 .about-text {
-  justify-self: flex-end;
   align-self: center;
   width: 50%;
   font-size: 20px;
