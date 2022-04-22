@@ -1,9 +1,9 @@
 /*variables*/
 :root {
-  --primary-color: #10030D;
-  --secondary-color: #CC8B65;
+  --primary-color: #10030d;
+  --secondary-color: #cc8b65;
   --tertiary-color: #44393e;
-  --quarternary-color: #E3DCD2;
+  --quarternary-color: #e3dcd2;
   --quinary-color: #013328;
 }
 
@@ -17,27 +17,33 @@
 /*element selectors*/
 header,
 footer {
-  background-color: rgba(16, 3, 13, .95);
+  background-color: rgba(16, 3, 13, 0.95);
 }
 
 header {
   display: flex;
   flex-wrap: wrap;
-  position: -webkit-sticky;
-  position: sticky;
   justify-content: space-between;
   flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
   top: 0;
   z-index: 9999;
   color: var(--quarternary-color);
+}
+
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
 }
 
 body {
   position: relative;
   display: flex;
   flex-direction: column;
-  align-content: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   background-color: #fff;
 }
 
@@ -49,8 +55,12 @@ a {
 main h3 {
   font-size: 30px;
   border-right: 2px solid var(--tertiary-color);
-  margin: 50px 100px;
+  margin: 50px 20px 50px 100px;
   padding-right: 20px;
+}
+
+footer {
+  flex-direction: row;
 }
 
 /*class selectors*/
@@ -114,8 +124,9 @@ main h3 {
   height: 300px;
   width: 300px;
   border-radius: 50%;
-  box-shadow: 10px 5px 5px rgba(1, 51, 40, .5);
-  margin: 80px 200px;
+  border: solid 1px rgba(1, 51, 40, 0.5);
+  margin: 80px 50px;
+  padding: 10px;
 }
 
 .about-text {
@@ -127,12 +138,15 @@ main h3 {
 
 .portfolio-section {
   background-color: var(--quarternary-color);
+  margin-top: 10px;
+  padding-bottom: 10px;
 }
 
 .portfolio-section p {
   color: var(--quarternary-color);
   background-color: var(--quinary-color);
   width: 150px;
+  margin: 50px;
 }
 
 .projects-grid {
@@ -142,7 +156,7 @@ main h3 {
   align-items: center;
   width: 50%;
   margin: 50px auto;
-  border: 2px solid rgba(1, 51, 40, .5);
+  border: 2px solid rgba(1, 51, 40, 0.5);
   border-radius: 5px;
 }
 
@@ -154,11 +168,12 @@ main h3 {
   color: var(--quarternary-color);
 }
 
-.contact-section h3 {
-  color: var(--quarternary-color);
+/*id selectors*/
+#portfolio {
+  position: absolute;
+  margin-left: 70px;
 }
 
-/*id selectors*/
 #tile1 {
   height: 400px;
   width: 100%;
