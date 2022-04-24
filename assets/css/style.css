@@ -262,8 +262,13 @@ footer {
   background-position: center;
 }
 
-#tile1:hover, #tile2:hover, #tile3:hover, #tile4:hover, #tile5:hover, #tile6:hover {
-  box-shadow: inset 0 0 100px 70px rgba(68,57,62,.5);
+#tile1:hover,
+#tile2:hover,
+#tile3:hover,
+#tile4:hover,
+#tile5:hover,
+#tile6:hover {
+  box-shadow: inset 0 0 100px 70px rgba(68, 57, 62, 0.5);
 }
 
 #contact {
@@ -272,4 +277,60 @@ footer {
   text-align: center;
   margin-top: 20px;
   width: 1150px;
+}
+
+/*media queries*/
+/* MEDIA QUERY FOR lARGER DESKTOP SCREENS AND LARGER */
+@media screen and (min-width: 1201px) {
+  main h3 {
+    font-size: 50px;
+  }
+
+  .nav-name {
+    font-size: 30px;
+    margin-left: 20px;
+  }
+
+  .nav-links li a {
+    font-size: 30px;
+  }
+
+  .hero {
+    height: 1290px;
+  }
+
+  .about-section {
+    justify-content: space-between;
+  }
+
+  .bio-image {
+    height: 500px;
+    width: 500px;
+  }
+
+  .about-text {
+    font-size: 30px;
+  }
+
+  .projects-grid {
+    margin-left: 750px;
+  }
+
+  .portfolio-section p {
+    width: 300px;
+    margin: 10px;
+    font-size: 30px;
+  }
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
 }
