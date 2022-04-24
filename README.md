@@ -2,42 +2,50 @@
 
 ## Description
 
-The Professional Portfolio project was created as a demonstration of Amanda Klenk's experience and abilities to potential employers and collaborators. It contains a detailed about section with a recent photo, a portfolio section with working hyperlinks, and a contact section with various social media and developer contact sites.
+The Professional Portfolio project was created as a demonstration of Amanda Klenk's experience and abilities to potential employers and collaborators. It contains a detailed about section with a recent photo, a portfolio section with links to each of her projects, and a contact section with links to each contact method.
 
-## Table of Contents (Optional)
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
+## Table of Contents
 - [Installation](#installation)
 - [Links](#links)
 - [Usage](#usage)
+- [Creation](#creation)
 - [Credits](#credits)
 - [License](#license)
+- [Project-Status](#project-status)
+
 
 ## Installation
+The repository, Professional-Portfolio, was created and cloned from GitHub. An index.html file was created and was coded to contain the site content. A folder, assets, was created to house two folders, css and images. The images folder contains the site images (hero, bio picture, project images, and contact icons). The css folder contains the style sheet, style.css.
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
 ## Links
-- []()
-- []()
+- [GitHub Repository](https://github.com/amklenk/Professional-Portfolio)
+- [GitHub Pages Site](https://amklenk.github.io/Professional-Portfolio/)
+
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+Below is a screenshot of the live site.
+![Portfolio Pages Site](./assets/images/fullpagescreenshot.png)
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+The site should be responsive at all major breakpoints.
+
+
+## Creation
+
+Once the respository was installed locally, the index.html file was filled out with the skeleton and then the content. The tags (head, body, section, header, nav, main, article, and footer) were chosen to be as responsive as possible. The hero and project images were moved to the CSS style sheet as background images. As a result, the project images each have title attributes with descriptions of each image instead of alt attributes.
+
+The CSS style sheet, style.css, was created one piece of the site at time (starting at the top of the page with the hero). The sheet is organized by variables, element selectors, class selectors, id selectors, and media queries. Any pseudoclasses are listed after their original element/class/id styling blocks. Positioning was, and continues to be, the most difficult part of the site-building process. This made for a difficult adaptation of media queries.
+
 
 ## Credits
-List your collaborators, if any, with links to their GitHub profiles.
+The following website was the inspiration behind the design of this porfolio site.
+- [Matthew Williams' Developer Site](http://findmatthew.com)
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+The chosen palette was from the following site.
+- [Color Palettes for Websites](https://www.shutterstock.com/blog/color-palettes-for-websites)
 
 
 ## License
@@ -65,16 +73,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+## Project Status
+
+This project is a work in progress. It will be updated via a develop and feature branches going forward. Feedback on positioning, design, functionality, and responsiveness is pivotal for future iterations of the live site. An additional button will be added between the Portfolio and Contact sections to direct the user back up to the hero. The hero will potentially house an animation instead of just an image.
