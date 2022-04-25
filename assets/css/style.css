@@ -3,7 +3,7 @@
   --primary-color: #10030d;
   --secondary-color: #cc8b65;
   --tertiary-color: #44393e;
-  --quarternary-color: #e3dcd2;
+  --quarternary-color: white;
   --quinary-color: #013328;
   --box-shadow-glow: 0 0 5px 5px #fff;
   --default-margin: 10px;
@@ -202,7 +202,6 @@ main h3 {
   background-size: cover;
   margin: var(--default-margin) auto 0px auto;
   border: var(--tile-border);
-  border-radius: 10px;
 }
 
 #tile2 {
@@ -212,7 +211,6 @@ main h3 {
   background-size: cover;
   background-position: center;
   border: var(--tile-border);
-  border-radius: 10px;
 }
 
 #tile3 {
@@ -221,7 +219,6 @@ main h3 {
   background-image: URL(../images/technical.png);
   background-size: cover;
   border: var(--tile-border);
-  border-radius: 10px;
 }
 
 #tile4 {
@@ -230,7 +227,6 @@ main h3 {
   background-image: URL(../images/ice-cream.png);
   background-size: cover;
   border: var(--tile-border);
-  border-radius: 10px;
 }
 
 #tile5 {
@@ -239,7 +235,6 @@ main h3 {
   background-image: URL(../images/chunky.png);
   background-size: cover;
   border: var(--tile-border);
-  border-radius: 10px;
 }
 
 #tile6 {
@@ -249,7 +244,6 @@ main h3 {
   background-size: cover;
   background-position: center;
   border: var(--tile-border);
-  border-radius: 10px;
   margin: 0 auto var(--default-margin) auto;
 }
 
