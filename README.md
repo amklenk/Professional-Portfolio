@@ -50,7 +50,7 @@ Each of the requirements was fullfilled:
 
 Once the respository was installed locally, the index.html file was filled out with the skeleton and then the content. The tags (head, body, section, header, nav, main, article, and footer) were chosen to be as responsive as possible. The hero and project images were moved to the CSS style sheet as background images. As a result, the project images each have title attributes with descriptions of each image instead of alt attributes.
 
-The CSS style sheet, style.css, was created one piece of the site at time (starting at the top of the page with the hero). The sheet is organized by variables, element selectors, class selectors, id selectors, and media queries. Any pseudoclasses are listed after their original element/class/id styling blocks. Positioning was, and continues to be, the most difficult part of the site-building process. This made for a difficult adaptation of media queries.
+The CSS style sheet, style.css, was created one piece of the site at time (starting at the top of the page with the hero). The sheet lists the variables and browswer styling first. The rest of the sheet is organized by the HTML sections and then, within each section styling designation, by element selector, class selector, and id selector. The media queries are listed last. Any pseudoclasses are listed after their original element/class/id styling blocks. Positioning was, and continues to be, the most difficult part of the site-building process. This resulted in a reworking of the site that changed the design.
 
 ## Credits
 The following website was the inspiration behind the design of this porfolio site.
@@ -87,4 +87,4 @@ SOFTWARE.
 
 ## Project Status
 
-This project is a work in progress. It will be updated via a develop and feature branches going forward. Feedback on positioning, design, functionality, and responsiveness is pivotal for future iterations of the live site. An additional button will be added between the Portfolio and Contact sections to direct the user back up to the hero. The hero will potentially house an animation instead of just an image.
+This project is a work in progress. It will be updated via a develop and feature branches going forward. Feedback on positioning, design, functionality, and responsiveness is pivotal for future iterations of the live site. An additional button will be added between the Portfolio and Contact sections to direct the user back up to the hero. The hero will potentially house an animation instead of just an image. Styling should be altered to fit the reworked positioning.
