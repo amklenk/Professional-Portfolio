@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Amanda Klenk's Portfolio</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet" />
 </head>
 
 <body>
     <section class="hero">
         <h1 class="hero-title">
-            <a href="/">This is the portfolio site for <span class="span-name">Amanda Klenk</span>.</a>
+            <a href="/">This is the portfolio site for
+                <span class="span-name">Amanda Klenk</span>.</a>
         </h1>
         <a href="#about-section" class="hero-btn">Click to see more!</a>
     </section>
@@ -35,64 +36,82 @@
             </ul>
         </nav>
     </header>
-
     <main>
-        <article class="about-section"id="about-section">
-            <h3 class="section-title" id="about">About</h3>
-            <img class="bio-image" id="studentbiophoto" src="./assets/images/AKlenk.jfif" alt="a photo of Amanda Klenk">
-            <p class="about-text">I am a novice Front-End Developer looking to join a collaborative, client-focused
-                team. As a former teacher turned coder, I am looking to bring my time-management and collaboration
-                skills to the table. I have a passion for accesible, responsive, and dynamic web design.</p>
-            </article>
-
-        <article class="portfolio-section" id="portfolio-section">
-            <h3 class="section-title" id="portfolio">Portfolio</h3>
-            <div class="projects-grid">
-                <a href="https://github.com/amklenk/run-buddy" target="_blank" id="tile1"
-                    title="Run Buddy Landing Page">
-                    <p class="project-title">
-                        Run Buddy Landing Page: HTML & CSS
-                    </p>
+        <section class="about" id="about-section">
+            <div class="titlediv">
+                <h3 class="title">About</h3>
+            </div>
+            <div id="bioinfodiv">
+                <img class="bio-image" id="studentbiophoto" src="./assets/images/AKlenk.jfif"
+                    alt="a photo of Amanda Klenk" />
+                <p id="about-text">
+                    I am a novice Front-End Developer looking to join a collaborative,
+                    client-focused team. As a former teacher turned coder, I am looking
+                    to bring my time-management and collaboration skills to the table. I
+                    have a passion for accesible, responsive, and dynamic web design.
+                </p>
+            </div>
+        </section>
+        <section class="portfolio">
+            <div class="titlediv" id="portfoliotitlediv" style="display: flex">
+                <h3 class="portfolio-title">Portfolio</h3>
+            </div>
+            <div id="portinfodiv">
+                <a href="https://github.com/amklenk/run-buddy" target="_blank" title="Run Buddy Landing Page">
+                    <div id="tile1">
+                        <p class="project-title">
+                            Run Buddy Landing Page: HTML & CSS
+                        </p>
+                    </div>
                 </a>
-
-                <a href="https://codepen.io/collection/aMJdzJ" target="_blank" id="tile2"
-                    title="100 Days CSS Challenge Logo">
-                    <p class="project-title">
-                        100 Days CSS Challenge: HTML, CSS, & JavaScript
-                    </p>
-                </a>
-
-                <a href="https://codepen.io/MKlenk3/pen/VwrvRXQ" target="_blank" id="tile3">
-                    <p class="project-title">
-                        Technical Document: HTML & CSS
-                    </p>
-                </a>
-
-                <a href="https://codepen.io/MKlenk3/pen/vYWBEEy" target="_blank" id="tile4"
-                    title="Ice Cream Survey Landing Page">
-                    <p class="project-title">
-                        Ice Cream Survey: HTML & CSS
-                    </p>
-                </a>
-
-                <a href="https://codepen.io/MKlenk3/pen/mdqbyxp" target="_blank" id="tile5"
-                    title="Chunky Wool Product Landing Page">
-                    <p class="project-title">
-                        Product Page: HTML & CSS
-                    </p>
-                </a>
-
-                <a href="https://codepen.io/MKlenk3/pen/ZEXPGEM" target="_blank" id="tile6"
-                    title="Katherine Johnson Tribute Landing Page">
-                    <p class="project-title">
-                        Tribute Page: HTML & CSS
-                    </p>
+                <div class="tilediv">
+                    <a href="https://codepen.io/collection/aMJdzJ" target="_blank" id="tile2"
+                        title="100 Days CSS Challenge Logo">
+                        <div>
+                            <p class="project-title">
+                                100 Days CSS Challenge: HTML, CSS, & JavaScript
+                            </p>
+                        </div>
+                        <a href="https://codepen.io/MKlenk3/pen/VwrvRXQ" target="_blank" id="tile3">
+                            <div>
+                                <p class="project-title">
+                                    Technical Document: HTML & CSS
+                                </p>
+                            </div>
+                        </a>
+                </div>
+                <div class="tilediv">
+                    <a href="https://codepen.io/MKlenk3/pen/vYWBEEy" target="_blank"
+                        title="Ice Cream Survey Landing Page" id="tile4">
+                        <div>
+                            <p class="project-title">
+                                Ice Cream Survey: HTML & CSS
+                            </p>
+                        </div>
+                        <a href="https://codepen.io/MKlenk3/pen/mdqbyxp" target="_blank"
+                            title="Chunky Wool Product Landing Page" id="tile5">
+                            <div>
+                                <p class="project-title">
+                                    Product Page: HTML & CSS
+                                </p>
+                            </div>
+                        </a>
+                </div>
+                <a href="https://codepen.io/MKlenk3/pen/ZEXPGEM" target="_blank"
+                title="Katherine Johnson Tribute Landing Page">
+                    <div id="tile6">
+                        <p class="project-title">
+                            Tribute Page: HTML & CSS
+                        </p>
+                    </div>
                 </a>
             </div>
-        </article>
+        </section>
 
-        <section class="contact-section" id="contact-section">
-            <h3 class="section-title" id="contact">Contact</h3>
+        <section class="contact">
+            <div class="titlediv" id="contacttitlediv">
+                <h3 class="contact-title">Contact</h3>
+            </div>
             <div class="contact-links">
                 <a id="Gmail-link" href="mailto: amandamklenk3@gmail.com" target="_blank"
                     class="btn contact-details"><img class="Gmail-icon" src="./assets/images/email-icon.png" alt="Gmail icon"></a>

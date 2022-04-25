@@ -2,7 +2,13 @@
 
 ## Description
 
-The Professional Portfolio project was created as a demonstration of Amanda Klenk's experience and abilities to potential employers and collaborators. It contains a detailed about section with a recent photo, a portfolio section with links to each of her projects, and a contact section with links to each contact method.
+The Professional Portfolio project was created as a demonstration of Amanda Klenk's experience and abilities to potential employers and collaborators. It contains a detailed about section with a recent photo, a portfolio section with links to each of her projects, and a contact section with links to each contact method. The requirements for this project were as follows:
+* The developer's name, photo, and links to about them, their work, and how to contact them are present.
+* The UI scrolls to the corresponding sections when each nav link is clicked.
+* The first project must have a larger displayed image than the subsequent projects.
+* Each project image should have a link to the actual project that is deployed upon clicking.
+* The page must be responsive at the major breakpoints.
+
 
 
 ## Table of Contents
@@ -35,10 +41,16 @@ The site should be responsive at all major breakpoints.
 
 ## Creation
 
+Each of the requirements was fullfilled:
+* The developer's name, photo, and links to about them, their work, and how to contact them are present.
+* The UI scrolls to the corresponding sections when each nav link is clicked.
+* The first project must have a larger displayed image than the subsequent projects.
+* Each project image should have a link to the actual project that is deployed upon clicking.
+* The page must be responsive at the major breakpoints.
+
 Once the respository was installed locally, the index.html file was filled out with the skeleton and then the content. The tags (head, body, section, header, nav, main, article, and footer) were chosen to be as responsive as possible. The hero and project images were moved to the CSS style sheet as background images. As a result, the project images each have title attributes with descriptions of each image instead of alt attributes.
 
 The CSS style sheet, style.css, was created one piece of the site at time (starting at the top of the page with the hero). The sheet is organized by variables, element selectors, class selectors, id selectors, and media queries. Any pseudoclasses are listed after their original element/class/id styling blocks. Positioning was, and continues to be, the most difficult part of the site-building process. This made for a difficult adaptation of media queries.
-
 
 ## Credits
 The following website was the inspiration behind the design of this porfolio site.
