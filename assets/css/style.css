@@ -1,13 +1,13 @@
 /*variables*/
 :root {
-  --primary-color: #10030d;
+  --primary-color: #344966;
   --secondary-color: #cc8b65;
-  --tertiary-color: #44393e;
-  --quarternary-color: white;
-  --quinary-color: #013328;
+  --tertiary-color: #0d1821;
+  --quarternary-color: #fff;
+  --quinary-color: #d6e3f8;
   --box-shadow-glow: 0 0 5px 5px #fff;
   --default-margin: 10px;
-  --tile-border: 2px solid #013328;
+  --tile-border: 2px solid ##d6e3f8;
 }
 
 /*browser styling*/
@@ -44,7 +44,7 @@ body {
   flex-wrap: wrap;
   flex-direction: column;
   background-color: var(--primary-color);
-  background-image: URL(../images/hero3.png);
+  background-image: URL(../images/hero-design2.png);
   background-size: cover;
 }
 
@@ -63,6 +63,7 @@ body {
 
 .hero-btn {
   color: var(--quarternary-color);
+  background-color: rgba(53, 72, 102, 0.75);
   font-size: 20px;
   justify-self: center;
   align-self: center;
@@ -81,7 +82,7 @@ body {
 /*header*/
 header,
 footer {
-  background-color: rgba(16, 3, 13, 0.95);
+  background-color: rgba(53, 72, 102, 0.95);
   display: flex;
   flex-wrap: wrap;
 }
@@ -133,6 +134,7 @@ main h3 {
 /*about section styling*/
 .about {
   display: flex;
+  margin: 40px auto;
 }
 
 .titlediv {
@@ -144,17 +146,19 @@ main h3 {
 }
 
 .bio-image {
+  height: 300px;
+  width: 300px;
   border-radius: 50%;
-  border: solid 1px rgba(1, 51, 40, 0.5);
   margin: var(--default-margin) var(--default-margin);
 }
+
 #imagediv {
   width: 60%;
 }
 
 #bioinfodiv {
   display: flex;
-  margin-top: var(--default-margin);
+  margin: 20px auto;
   text-align: center;
   width: 80%;
 }
@@ -171,6 +175,7 @@ main h3 {
 .portfolio {
   display: flex;
   background-color: var(--quarternary-color);
+  margin: 40px auto;
 }
 
 .tilediv {
@@ -182,7 +187,8 @@ main h3 {
 
 .project-title {
   background-color: var(--quinary-color);
-  color: var(--quarternary-color);
+  color: var(--tertiary-color);
+  font-weight: bold;
   width: 30%;
 }
 
@@ -191,8 +197,8 @@ main h3 {
   background-color: var(--quarternary-color);
 }
 
-#portinfodiv {
-  width: 80%;
+#portfolioinfodiv {
+  width: 85%;
 }
 
 #tile1 {
@@ -253,9 +259,43 @@ main h3 {
 #tile4:hover,
 #tile5:hover,
 #tile6:hover {
-  box-shadow: inset 0 0 100px 70px rgba(68, 57, 62, 0.5);
+  box-shadow: inset 0 0 100px 70px rgba(53, 72, 102, 0.5);
 }
 /*end porftolio section*/
+
+/*heroupbutton section*/
+.heroupbuttondiv {
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+}
+
+#heroupbutton {
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: var(--quinary-color);
+height: 50px;
+width: 50px;
+border-radius: 50%;
+margin: var(--default-margin) auto;
+}
+
+#heroupbutton:hover {
+  color: var(--primary-color);
+  background: var(--quarternary-color);
+  font-weight: bold;
+  box-shadow: var(--box-shadow-glow);
+}
+
+#upbutton {
+text-align: center;
+text-decoration: none;
+color: var(--primary-color);
+font-weight: bold;
+font-size: 1.75em;
+}
+/*end heroupbutton section*/
 
 /*contact section styling*/
 .contact {
@@ -270,6 +310,21 @@ main h3 {
   border-bottom:  2px solid var(--secondary-color);
   background-color: var(--primary-color);
   color: var(--quarternary-color);
+}
+
+.contact-links {
+  margin: var(--default-margin) auto var(--default-margin) auto;
+}
+
+.contact-links img {
+  width: 50px;
+  height: 50px;
+  margin-left: var(--default-margin);
+  margin-right: var(--default-margin);
+}
+
+.contact-links img:hover {
+  box-shadow: var(--box-shadow-glow);
 }
 /*end contact section styling*/
 
@@ -286,22 +341,6 @@ footer {
   margin: 5px var(--default-margin);
 }
 /*end footer styling*/
-
-
-.contact-links {
-  margin: var(--default-margin) auto var(--default-margin) auto;
-}
-
-.contact-links img {
-  width: 50px;
-  height: 50px;
-  margin-left: var(--default-margin);
-  margin-right: var(--default-margin);
-}
-
-.contact-links img:hover {
-  box-shadow: var(--box-shadow-glow);
-}
 
 /*media queries*/
 /* MEDIA QUERY FOR lARGER DESKTOP SCREENS AND LARGER */

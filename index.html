@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <section class="hero">
+    <section class="hero" id="hero">
         <h1 class="hero-title">
             <a href="/">This is the portfolio site for
                 <span class="span-name">Amanda Klenk</span>.</a>
@@ -52,11 +52,11 @@
                 </p>
             </div>
         </section>
-        <section class="portfolio">
+        <section class="portfolio" id="portfolio-section">
             <div class="titlediv" id="portfoliotitlediv" style="display: flex">
                 <h3 class="portfolio-title">Portfolio</h3>
             </div>
-            <div id="portinfodiv">
+            <div id="portfolioinfodiv">
                 <a href="https://github.com/amklenk/run-buddy" target="_blank" title="Run Buddy Landing Page">
                     <div id="tile1">
                         <p class="project-title">
@@ -98,7 +98,7 @@
                         </a>
                 </div>
                 <a href="https://codepen.io/MKlenk3/pen/ZEXPGEM" target="_blank"
-                title="Katherine Johnson Tribute Landing Page">
+                    title="Katherine Johnson Tribute Landing Page">
                     <div id="tile6">
                         <p class="project-title">
                             Tribute Page: HTML & CSS
@@ -108,19 +108,32 @@
             </div>
         </section>
 
-        <section class="contact">
+        <div class="heroupbuttondiv">
+            <div id="heroupbutton">
+                <a href="#hero" id="upbutton">
+                    <p>
+                        ↑
+                    </p>
+                </a>
+            </div>
+        </div>
+
+        <section class="contact" id="contact-section">
             <div class="titlediv" id="contacttitlediv">
                 <h3 class="contact-title">Contact</h3>
             </div>
             <div class="contact-links">
                 <a id="Gmail-link" href="mailto: amandamklenk3@gmail.com" target="_blank"
-                    class="btn contact-details"><img class="Gmail-icon" src="./assets/images/email-icon.png" alt="Gmail icon"></a>
+                    class="btn contact-details"><img class="Gmail-icon" src="./assets/images/email-icon.png"
+                        alt="Gmail icon"></a>
                 <a id="LinkedIn-link" href="https://www.linkedin.com/in/amanda-klenk/" target="_blank"
-                    class="btn contact-details"><img class="LinkedIn-icon" src="./assets/images/linkedin-logo.png" alt="LinkedIn icon"></a>
+                    class="btn contact-details"><img class="LinkedIn-icon" src="./assets/images/linkedin-logo.png"
+                        alt="LinkedIn icon"></a>
                 <a id="GitHub-link" href="https://github.com/amklenk" target="_blank" class="btn contact-details"><img
                         class="GitHub-icon" src="./assets/images/github-logo.png" alt="GitHub logo"></a>
                 <a id="FCC-link" href="https://www.freecodecamp.org/mklenk3" target="_blank"
-                    class="btn contact-details"><img class="FCC-icon" src="./assets/images/fCC-icon.png" alt="freeCodeCamp icon"></a>
+                    class="btn contact-details"><img class="FCC-icon" src="./assets/images/fCC-icon.png"
+                        alt="freeCodeCamp icon"></a>
             </div>
         </section>
     </main>

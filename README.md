@@ -44,9 +44,9 @@ The site should be responsive at all major breakpoints.
 Each of the requirements was fullfilled:
 * The developer's name, photo, and links to about them, their work, and how to contact them are present.
 * The UI scrolls to the corresponding sections when each nav link is clicked.
-* The first project must have a larger displayed image than the subsequent projects.
-* Each project image should have a link to the actual project that is deployed upon clicking.
-* The page must be responsive at the major breakpoints.
+* The first project has a larger displayed image than the subsequent projects.
+* Each project image has a link to the actual project that is deployed upon clicking in a new window.
+* The page is responsive at the major breakpoints.
 
 Once the respository was installed locally, the index.html file was filled out with the skeleton and then the content. The tags (head, body, section, header, nav, main, article, and footer) were chosen to be as responsive as possible. The hero and project images were moved to the CSS style sheet as background images. As a result, the project images each have title attributes with descriptions of each image instead of alt attributes.
 
@@ -55,10 +55,6 @@ The CSS style sheet, style.css, was created one piece of the site at time (start
 ## Credits
 The following website was the inspiration behind the design of this porfolio site.
 - [Matthew Williams' Developer Site](http://findmatthew.com)
-
-The chosen palette was from the following site.
-- [Color Palettes for Websites](https://www.shutterstock.com/blog/color-palettes-for-websites)
-
 
 ## License
 
@@ -87,4 +83,4 @@ SOFTWARE.
 
 ## Project Status
 
-This project is a work in progress. It will be updated via a develop and feature branches going forward. Feedback on positioning, design, functionality, and responsiveness is pivotal for future iterations of the live site. An additional button will be added between the Portfolio and Contact sections to direct the user back up to the hero. The hero will potentially house an animation instead of just an image. Styling should be altered to fit the reworked positioning.
+This project is a work in progress. It will be updated via a develop and feature branches going forward. Feedback on positioning, design, functionality, and responsiveness is pivotal for future iterations of the live site. The hero will potentially house an animation instead of just an image. Each project tile will potentially have an animation instead of just an inner glow.
