@@ -132,7 +132,7 @@ main h3 {
 /*end main styling*/
 
 /*about section styling*/
-.about {
+.content{
   display: flex;
   margin: 40px auto;
 }
@@ -349,12 +349,60 @@ footer {
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
+  .hero {
+    height: 775px;
+}
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
+  .hero {
+    height: 765px;
+}
+
+.bio-image {
+  height: 200px;
+  width: 200px;
+}
+
+#about-text {
+  font-size: 1em;
+}
+
+#tile1 {
+  height: 200px;
+}
+#tile2, #tile3, #tile4, #tile5, #tile6 {
+  height: 100px;
+}
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 600px) {
+  .section-title{
+    font-size: 20px;
+  }
+
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 40px auto;
+}
+
+.titlediv {
+  align-items: center;
+  flex-direction: column;
+  border-right: none;
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+.project-title {
+  background-color: var(--quinary-color);
+  color: var(--tertiary-color);
+  font-weight: bold;
+  width: 100%;
+  font-size: 15px;
+}
+
 }
