@@ -289,12 +289,20 @@ margin: var(--default-margin) auto;
 }
 
 #upbutton {
-text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
 text-decoration: none;
 color: var(--primary-color);
 font-weight: bold;
 font-size: 1.75em;
 }
+
+#arrow {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
 /*end heroupbutton section*/
 
 /*contact section styling*/

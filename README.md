@@ -2,7 +2,9 @@
 
 ## Description
 
-The Professional Portfolio project was created as a demonstration of Amanda Klenk's experience and abilities to potential employers and collaborators. It contains a detailed about section with a recent photo, a portfolio section with links to each of her projects, and a contact section with links to each contact method. The requirements for this project were as follows:
+The Professional Portfolio project was created as a demonstration of Amanda Klenk's experience and abilities to potential employers and collaborators. It contains a detailed about section with a recent photo, a portfolio section with links to each of her projects, and a contact section with links to each contact method.
+
+The requirements for this project were as follows:
 * The developer's name, photo, and links to about them, their work, and how to contact them are present.
 * The UI scrolls to the corresponding sections when each nav link is clicked.
 * The first project must have a larger displayed image than the subsequent projects.
@@ -22,7 +24,7 @@ The Professional Portfolio project was created as a demonstration of Amanda Klen
 
 
 ## Installation
-The repository, Professional-Portfolio, was created and cloned from GitHub. An index.html file was created and was coded to contain the site content. A folder, assets, was created to house two folders, css and images. The images folder contains the site images (hero, bio picture, project images, and contact icons). The css folder contains the style sheet, style.css.
+The repository, Professional-Portfolio, was created and cloned from GitHub. An index.html file was created and was coded to contain the site content. A folder, assets, was created to house two folders, css and images. The images folder contains the site images (hero, bio picture, project images, and contact icons). The css folder contains the style sheet, style.css, which was coded to contain the site's styling details.
 
 
 ## Links
@@ -36,7 +38,7 @@ Below is a screenshot of the live site.
 ![Portfolio Pages Site](./assets/images/fullpagescreenshot.png)
 
 
-The site should be responsive at all major breakpoints.
+All of the links should work either to access each section within the site or each project outside of the site. The site should be responsive at all major breakpoints.
 
 
 ## Creation
@@ -48,9 +50,9 @@ Each of the requirements was fullfilled:
 * Each project image has a link to the actual project that is deployed upon clicking in a new window.
 * The page is responsive at the major breakpoints.
 
-Once the respository was installed locally, the index.html file was filled out with the skeleton and then the content. The tags (head, body, section, header, nav, main, article, and footer) were chosen to be as responsive as possible. The hero and project images were moved to the CSS style sheet as background images. As a result, the project images each have title attributes with descriptions of each image instead of alt attributes.
+Once the respository was installed locally, the index.html file was filled out with the skeleton and then the additional content. The tags (head, body, section, header, nav, main, and footer) were chosen to be as responsive as possible. The hero and project images were moved to the CSS style sheet as background images. As a result, the project images each have title attributes with descriptions of each image instead of alt attributes.
 
-The CSS style sheet, style.css, was created one piece of the site at time (starting at the top of the page with the hero). The sheet lists the variables and browswer styling first. The rest of the sheet is organized by the HTML sections and then, within each section styling designation, by element selector, class selector, and id selector. The media queries are listed last. Any pseudoclasses are listed after their original element/class/id styling blocks. Positioning was, and continues to be, the most difficult part of the site-building process. This resulted in a reworking of the site that changed the design.
+The CSS style sheet, style.css, lists the variables and browswer styling first. The rest of the sheet is organized by the HTML sections and then - within each section styling block - by element selector, class selector, and id selector. The media queries are listed last. Any pseudoclasses are listed after their original element/class/id styling blocks. The positioning was reworked with flexbox and percentages as much as possible to make the design more responsive.
 
 ## Credits
 The following website was the inspiration behind the design of this porfolio site.
@@ -83,4 +85,4 @@ SOFTWARE.
 
 ## Project Status
 
-This project is a work in progress. It will be updated via a develop and feature branches going forward. Feedback on positioning, design, functionality, and responsiveness is pivotal for future iterations of the live site. The hero will potentially house an animation instead of just an image. Each project tile will potentially have an animation instead of just an inner glow.
+This project is a work in progress. It will be updated via a develop and feature branches going forward. Feedback on positioning, design, functionality, and responsiveness is pivotal for future iterations of the live site. The hero will potentially house an animation instead of just an image. Each project tile will potentially have an animation instead of just an inner glow. The contact section will eventually have a user input section where the user can submit their name, email address, and message. The arrow button will be moved below the contact icons, but with different styling so that the user understands it is a nav button and not a contact icon.
