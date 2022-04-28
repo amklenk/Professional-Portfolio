@@ -151,11 +151,6 @@ main h3 {
   border-radius: 50%;
   margin: var(--default-margin) var(--default-margin);
 }
-
-#imagediv {
-  width: 60%;
-}
-
 #bioinfodiv {
   display: flex;
   margin: 20px auto;
@@ -413,4 +408,47 @@ footer {
   font-size: 15px;
 }
 
+}
+
+@media screen and (max-width: 518px) {
+  .nav-links li {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  #about-text {
+    font-size: .9em;
+  }
+}
+
+@media screen and (max-width: 486px) {
+  #bioinfodiv {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 476px) {
+  #portfoliotitlediv {
+    width: 17%;
+  }
+}
+
+@media screen and (max-width: 466px) {
+  header {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 432px) {
+  #abouttitlediv{
+    margin-bottom: none;
+  }
+
+  #bioinfodiv {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
 }
