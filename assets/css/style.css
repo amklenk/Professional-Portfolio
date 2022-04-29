@@ -376,6 +376,12 @@ footer {
 }
 }
 
+@media screen and (max-width: 638px) {
+  header {
+    flex-direction: column;
+  }
+}
+
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 600px) {
   .section-title{
@@ -427,12 +433,6 @@ footer {
 @media screen and (max-width: 476px) {
   #portfoliotitlediv {
     width: 17%;
-  }
-}
-
-@media screen and (max-width: 466px) {
-  header {
-    flex-direction: column;
   }
 }
 
