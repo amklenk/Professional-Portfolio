@@ -52,7 +52,7 @@ Each of the requirements was fullfilled:
 
 Once the respository was installed locally, the index.html file was filled out with the skeleton and then the additional content. The tags (head, body, section, header, nav, main, and footer) were chosen to be as responsive as possible. The hero and project images were moved to the CSS style sheet as background images. As a result, the project images each have title attributes with descriptions of each image instead of alt attributes.
 
-The CSS style sheet, style.css, lists the variables and browswer styling first. The rest of the sheet is organized by the HTML sections and then - within each section styling block - by element selector, class selector, and id selector. The media queries are listed last. Any pseudoclasses are listed after their original element/class/id styling blocks. The positioning was reworked with flexbox and percentages as much as possible to make the design more responsive. There are multiple mobile media queries so that the site is responsive on as many mobile devices as possible. 
+The CSS style sheet, style.css, lists the variables and browswer styling first. The rest of the sheet is organized by the HTML sections and then - within each styling section - by element selectors, class selectors, and id selectors. The media queries are listed last. Any pseudoclasses are listed after their original element/class/id styling blocks. The positioning was reworked with flexbox and percentages as much as possible to make the design more responsive. There are multiple mobile media queries so that the site is responsive on as many mobile devices as possible.
 
 ## Credits
 The following website was the inspiration behind the design of this porfolio site:
