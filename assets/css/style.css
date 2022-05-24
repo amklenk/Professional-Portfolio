@@ -202,115 +202,62 @@ main h3 {
   background-color: var(--quarternary-color);
 }
 
+#tile1, #tile2, #tile3, #tile4, #tile5, #tile6, #tile7, #tile8, #tile9, #tile10{
+  width: 80%;
+  background-size: cover;
+  border: var(--tile-border);
+}
+
+#tile2, #tile3, #tile4, #tile5, #tile6, #tile7, #tile8, #tile9, #tile10{
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: var(--default-margin);
+}
+
 #tile1 {
   height: 300px;
-  width: 80%;
   background-image: URL(../images/weathersitescreenshot.png);
-  background-size: cover;
   margin: var(--default-margin) auto var(--default-margin) auto;
-  border: var(--tile-border);
 }
 
 #tile2 {
-  height: 150px;
-  width: 80%;
   background-image: URL(../images/wdsitescreenshot.png);
-  background-size: cover;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: var(--default-margin);
-  border: var(--tile-border);
 }
 
 #tile3 {
-  height: 150px;
-  width: 80%;
   background-image: URL(../images/quiz.png);
-  background-size: cover;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: var(--default-margin);
-  border: var(--tile-border);
 }
 
 #tile4 {
-  height: 150px;
-  width: 80%;
   background-image: URL(../images/password.png);
-  background-size: cover;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: var(--default-margin);
-  border: var(--tile-border);
 }
 
 #tile5 {
-  height: 150px;
-  width: 80%;
   background-image: URL(../images/horiseon.png);
-  background-size: cover;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: var(--default-margin);
-  border: var(--tile-border);
 }
 
 #tile6 {
-  height: 150px;
-  width: 80%;
   justify-content: center;
   background-image: URL(../images/css100.png);
-  background-size: cover;
   background-position: 30% 70%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: var(--default-margin);
-  border: var(--tile-border);
 }
 
  #tile7 {
-  width: 80%;
-  height: 150px;
   background-image: URL(../images/technical.png);
-  background-size: cover;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: var(--default-margin);
-  border: var(--tile-border);
 }
 
 #tile8 {
-  width: 80%;
-  height: 150px;
   background-image: URL(../images/ice-cream.png);
-  background-size: cover;
-  border: var(--tile-border);
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: var(--default-margin);
 }
 
 #tile9 {
-  width: 80%;
-  height: 150px;
   background-image: URL(../images/chunky.png);
-  background-size: cover;
-  border: var(--tile-border);
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: var(--default-margin);
 }
 
 #tile10 {
-  width: 80%;
-  height: 150px;
   background-image: URL(../images/tribute-page.png);
-  background-size: cover;
   background-position: center;
-  border: var(--tile-border);
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: var(--default-margin);
 }
 
 #tile1:hover,
@@ -440,7 +387,7 @@ footer {
 #tile1 {
   height: 200px;
 }
-#tile2, #tile3, #tile4, #tile5, #tile6 {
+#tile2, #tile3, #tile4, #tile5, #tile6, #tile7, #tile8, #tile9, #tile10 {
   height: 100px;
 }
 }
