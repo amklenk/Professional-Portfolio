@@ -75,3 +75,56 @@ header nav {
   font-weight: bold;
 }
 /*end header styling*/
+
+/*main styling*/
+main{
+  background-color: var(--quinary-color);
+}
+
+main h2, main h3, main h4 {
+  text-align: center;
+  margin: 0 auto;
+}
+
+main h2 {
+margin-top: 40px;
+font-size: 40px;
+}
+
+main h3 {
+  font-size: 35px;
+}
+
+main h4 {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+main p, main li{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.post {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.list {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#p1, #p2, #p3, #p4{
+  margin-bottom: var(--default-margin);
+}
+
+#p4{
+  margin-top: var(--default-margin);
+}
+
+#li1{
+  margin-top: 15px;
+}
+/*end main styling*/
