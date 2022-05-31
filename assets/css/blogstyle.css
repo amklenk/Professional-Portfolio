@@ -79,6 +79,7 @@ header nav {
 /*main styling*/
 main{
   background-color: var(--quinary-color);
+  color: var(--tertiary-color);
 }
 
 main h2, main h3, main h4 {
@@ -114,6 +115,21 @@ main p, main li{
 .list {
   width: 90%;
   margin: 0 auto;
+}
+
+.li-header{
+  font-style: italic;
+}
+
+.blog-image{
+  margin-top: var(--default-margin);
+  margin-bottom: var(--default-margin);
+  width: 80%;
+  margin-left: 10%;
+}
+
+.list-item {
+  margin-top: 20px;
 }
 
 #p1, #p2, #p3, #p4{
