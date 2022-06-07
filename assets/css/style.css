@@ -276,7 +276,7 @@ main h3 {
 #tile7:hover,
 #tile8:hover,
 #tile9:hover,
-#tile10:hover
+#tile10:hover,
 #tile11:hover {
   box-shadow: inset 0 0 100px 70px rgba(53, 72, 102, 0.5);
 }
