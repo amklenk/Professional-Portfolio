@@ -197,6 +197,32 @@ main h3 {
   width: 30%;
 }
 
+.btn-div{
+width: 30%;
+display: flex;
+flex-direction: column;
+row-gap: 2px;
+margin-top: 2px;
+}
+
+.project-btn{
+  font-family: "Raleway", sans-serif;
+  background-color: rgba(53, 72, 102, 1);
+  border: none;
+  padding: 2px 2px;
+  color: white;
+  font-weight: bold;
+  transition-duration: 0.4s;
+  width: 100%
+}
+
+.project-btn:hover {
+background-color: rgba(53, 72, 102, 0.75);
+color: var(--secondary-color);
+font-weight: 900;
+cursor: pointer;
+}
+
 #portfoliotitlediv {
   display: flex;
   background-color: var(--quarternary-color);
@@ -266,30 +292,16 @@ main h3 {
   background-image: URL(../images/project-images/tribute-page.png);
   background-position: center;
 }
-
-#tile1:hover,
-#tile2:hover,
-#tile3:hover,
-#tile4:hover,
-#tile5:hover,
-#tile6:hover,
-#tile7:hover,
-#tile8:hover,
-#tile9:hover,
-#tile10:hover,
-#tile11:hover {
-  box-shadow: inset 0 0 100px 70px rgba(53, 72, 102, 0.5);
-}
 /*end porftolio section*/
 
-/*heroupbutton section*/
-.heroupbuttondiv {
+/*heroupbtn section*/
+.heroupbtndiv {
   background-color: var(--primary-color);
   display: flex;
   justify-content: center;
 }
 
-#heroupbutton {
+#heroupbtn {
 display: flex;
 justify-content: center;
 align-items: center;
@@ -300,14 +312,14 @@ border-radius: 50%;
 margin: var(--default-margin) auto;
 }
 
-#heroupbutton:hover {
+#heroupbtn:hover {
   color: var(--primary-color);
   background: var(--quarternary-color);
   font-weight: bold;
   box-shadow: var(--box-shadow-glow);
 }
 
-#upbutton {
+#upbtn {
 display: flex;
 justify-content: center;
 align-items: center;
@@ -322,7 +334,7 @@ font-size: 1.75em;
   margin-bottom: 5px;
 }
 
-/*end heroupbutton section*/
+/*end heroupbtn section*/
 
 /*contact section styling*/
 .contact {
@@ -434,6 +446,10 @@ footer {
   font-size: 15px;
 }
 
+.btn-div{
+  width: 100%;
+  align-items: center;
+}
 }
 
 @media screen and (max-width: 518px) {
