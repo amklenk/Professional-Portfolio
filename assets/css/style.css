@@ -183,6 +183,19 @@ main h3 {
 }
 /*end about section styling*/
 
+/* skills section styling */
+.icons-div{
+margin-left: 10px;
+display: flex;
+gap: 1rem;
+}
+
+.skills-icon{
+  width: 100px;
+  margin-left: 10px;
+}
+/* skills section end */
+
 /*portfolio section styling*/
 .portfolio {
   display: flex;
