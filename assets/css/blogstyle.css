@@ -105,6 +105,7 @@ main h4 {
 main p, main li{
   font-size: 18px;
   font-weight: bold;
+  line-height: 1.6;
 }
 
 .post {
