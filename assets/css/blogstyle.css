@@ -144,4 +144,8 @@ main p, main li{
 #li1{
   margin-top: 15px;
 }
+
+#li2ul1, #li2ul2, #li2ul3{
+  margin-left: 20px;
+}
 /*end main styling*/
