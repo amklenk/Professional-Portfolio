@@ -185,7 +185,7 @@ main h3 {
 
 /* skills section styling */
 .icons-div{
-margin: 0 auto;
+margin: 0 auto var(--default-margin);
 display: flex;
 gap: 1rem;
 justify-content: space-around;
@@ -226,6 +226,18 @@ width: 75%;
   transition-delay: 0s;
   cursor: crosshair;
 }
+
+#icons{
+display: flex; 
+flex-direction: column; 
+align-items: center; 
+margin: 0 auto;
+}
+
+#mysql{
+  width: 150px;
+  padding: auto 0 auto 0;
+}
 /* skills section end */
 
 /*portfolio section styling*/
@@ -244,10 +256,10 @@ width: 75%;
 }
 
 .portfolioinfodiv {
-  justify-self: center;
+  /* justify-self: center;
   align-self: center;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   width: 80%;
 }
 
@@ -257,6 +269,7 @@ width: 75%;
   font-weight: bold;
   width: 50%;
   padding-left: 5px;
+  margin-bottom: 2px;
 }
 
 .project-subtitle {
@@ -300,41 +313,68 @@ cursor: pointer;
   background-color: var(--quarternary-color);
 }
 
-#tile1, #tile2, #tile3, #tile4, #tile5, #tile6, #tile7, #tile8, #tile9, #tile10 #tile11{
+#tile1, #tile2, #tile3, #tile4, #tile5, #tile6, #tile7, #tile8, #tile9, #tile10, #tile11, #tile12, #tile13, #tile14, #tile15, #tile16, #tile17{
   background-size: cover;
   border: var(--tile-border);
 }
 
-#tile2, #tile3, #tile4, #tile5, #tile6, #tile7, #tile8, #tile9, #tile10, #tile11{
-  height: 150px;
+#tile1, #tile2, #tile3, #tile4, #tile5, #tile6, #tile7, #tile8, #tile9, #tile10, #tile11, #tile12, #tile13, #tile14, #tile15, #tile16{
+  height: 200px;
   margin-left: 13%;
-  margin-bottom: var(--default-margin);
+  margin:0 auto var(--default-margin);
+  justify-content: center;
+  width: 90%;
 }
 
-#tile2, #tile3, #tile4, #tile5, #tile6, #tile7, #tile8, #tile9, #tile10, #tile11{
-  width: 100%
-}
+/* #tile1, #tile2, #tile3, #tile4, #tile5, #tile6, #tile7, #tile8, #tile9, #tile10, #tile11 {
+  width: 100%;
+} */
 
-#tile1 {
-  width: 80%;
-  height: 300px;
-  background-image: URL(../images/project-images/workoutzen.png);
+#tile17 {
+  width: 90%;
+  height: 400px;
+  background-image: URL(../images/project-images/tech-blog.png);
   margin: var(--default-margin) auto var(--default-margin) auto;
 }
 
-#tile2 {
+#tile16 {
+  background-image: URL(../images/project-images/e-commerce.png);
+}
+
+#tile15 {
+  background-image: URL(../images/project-images/employee-tracker.png);
+  background-position: 15% 85%;
+}
+
+#tile14 {
+  background-image: URL(../images/project-images/note-taker.png);
+}
+
+#tile13 {
+  background-image: URL(../images/project-images/team-profile.png);
+}
+
+#tile12 {
+  background-image: URL(../images/project-images/generatedmarkdownpreviewexample.png);
+}
+
+#tile11 {
+  background-image: URL(../images/project-images/workoutzen.png);
+}
+
+#tile10 {
   background-image: URL(../images/project-images/weathersitescreenshot.png);
 }
 
-#tile3 {
+#tile9 {
   background-image: URL(../images/project-images/wdsitescreenshot.png);
 }
 
-#tile4 {
+#tile8 {
   background-image: URL(../images/project-images/quiz.png);
 }
 
-#tile5 {
+#tile7 {
   background-image: URL(../images/project-images/password.png);
 }
 
@@ -342,25 +382,25 @@ cursor: pointer;
   background-image: URL(../images/project-images/horiseon.png);
 }
 
-#tile7 {
+#tile5 {
   justify-content: center;
   background-image: URL(../images/project-images/css100.png);
   background-position: 30% 70%;
 }
 
- #tile8 {
+ #tile4 {
   background-image: URL(../images/project-images/technical.png);
 }
 
-#tile9 {
+#tile3 {
   background-image: URL(../images/project-images/ice-cream.png);
 }
 
-#tile10 {
+#tile2 {
   background-image: URL(../images/project-images/chunky.png);
 }
 
-#tile11 {
+#tile1 {
   background-image: URL(../images/project-images/tribute-page.png);
   background-position: center;
 }
@@ -484,11 +524,11 @@ footer {
   font-size: 1em;
 }
 
-#tile1 {
-  height: 200px;
+#tile17 {
+  height: 300px;
 }
-#tile2, #tile3, #tile4, #tile5, #tile6, #tile7, #tile8, #tile9, #tile10, #tile11 {
-  height: 100px;
+#tile1, #tile2, #tile3, #tile4, #tile5, #tile6, #tile7, #tile8, #tile9, #tile10, #tile11, #tile12, #tile13, #tile14, #tile15, #tile16 {
+  height: 200px;
 }
 }
 

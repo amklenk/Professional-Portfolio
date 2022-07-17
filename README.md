@@ -57,6 +57,8 @@ The CSS style sheet, style.css, lists the variables and browswer styling first. 
 ## Credits
 The following website was the inspiration behind the design of this porfolio site:
 - [Matthew Williams' Developer Site](http://findmatthew.com)
+The logos were downloaded, and then recolorized, from: 
+- [Free Icons Site](https://icon-icons.com/)
 
 ## License
 
