@@ -76,6 +76,13 @@ header nav {
 }
 /*end header styling*/
 
+/*title/banner styling*/
+.title-banner{
+  background-color: var(--primary-color);
+  background-image: URL(../images/hero-design2.png);
+}
+/* title/banner end */
+
 /*main styling*/
 main{
   background-color: var(--quinary-color);
@@ -87,8 +94,12 @@ main h2, main h3, main h4 {
   margin: 0 auto;
 }
 
+main h2, main h3 {
+color: white;
+}
+
 main h2 {
-margin-top: 40px;
+padding-top: 40px;
 font-size: 40px;
 }
 
@@ -100,6 +111,8 @@ main h4 {
   margin-top: 10px;
   margin-bottom: 30px;
   font-size: 20px;
+  color: var(--secondary-color);
+  padding-bottom: 40px;
 }
 
 main p, main li{
