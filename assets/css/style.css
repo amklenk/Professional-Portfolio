@@ -1,7 +1,7 @@
 /*variables*/
 :root {
   --primary-color: #344966;
-  --secondary-color: #cc8b65;
+  --secondary-color: #F28C28;
   --tertiary-color: #0d1821;
   --quarternary-color: #fff;
   --quinary-color: #d6e3f8;
@@ -15,6 +15,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 /*end broswer styling*/
 
@@ -23,7 +24,7 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", "Raleway", sans-serif;
   background-color: #fff;
 }
 /*end body styling*/
@@ -102,6 +103,7 @@ header {
   top: 0;
   z-index: 9999;
   color: var(--quarternary-color);
+  padding: 5px 10px;
 }
 
 header nav {
@@ -115,7 +117,7 @@ header nav {
   list-style: none;
   color: var(--quarternary-color);
   display: inline;
-  margin: 5px 20px 5px 20px;
+  margin: 5px 10px 5px 10px;
   font-size: 20px;
 }
 
