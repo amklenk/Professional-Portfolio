@@ -59,7 +59,8 @@ The following website was the inspiration behind the design of this porfolio sit
 - [Matthew Williams' Developer Site](http://findmatthew.com)
 The logos were downloaded, and then recolorized, from: 
 - [Free Icons Site](https://icon-icons.com/)
-
+The SVG was adapted from Andy Fitzsimon: 
+[the deep blue](https://codepen.io/andyfitz/pen/aZrKdV)
 ## License
 
 MIT License

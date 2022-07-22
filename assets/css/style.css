@@ -24,12 +24,41 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #fff;
 }
 /*end body styling*/
 
 /*hero styling*/
+.parallax > use {
+  animation: move-forever 12s linear infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -2s;
+  animation-duration: 5s;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 3s;
+}
+
+
+@keyframes move-forever{
+  0%{transform: translate(-90px , 0%)};
+  100%{transform: translate(85px , 0%)}; 
+}
+
+.editorial {
+  display: block;
+  width: 100%;
+  height: 20em;
+  max-height: 100vh;
+  margin: 0;
+}
+
 .hero a,
 .nav-links a,
 .about-links a,
@@ -48,18 +77,18 @@ body {
   width: 100%;
   height: 850px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
   background-color: var(--primary-color);
-  background-image: URL(../images/hero-design2.png);
+  /* background-image: URL(../images/hero-design2.png); */
   background-size: cover;
 }
 
 .hero-title {
   text-align: center;
-  margin-bottom: var(--default-margin);
+  margin-bottom: 50px;
 }
 
 .hero-title a {
@@ -78,6 +107,7 @@ body {
   align-self: center;
   padding: 2px 2px;
   border: 3px solid var(--quinary-color);
+  margin-top: -20px;
 }
 
 .hero-btn:hover {
