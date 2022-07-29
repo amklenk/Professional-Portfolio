@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/blogstyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet" />
+    <title>Amanda Klenk's Blog</title>
+</head>
+
+<body>
+    <header>
+        <h2 class="nav-name">AMANDA KLENK</h2>
+        <nav class="nav-links">
+            <ul id="nav-ul">
+                <li class="nav-sections">
+                    <a href="./index.html">Home</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+<main>
+    <div class="title-banner">
+        <h2 class="post1title">JavaScript:</h2>
+        <h3 class="post1subtitle">It's Worth The Pain</h3>
+        <h4 class="post1date">May 24, 2022</h4>
+    </div>
+
+    <section class="post">
+        <p class="paragraph" id="p1">
+            Before I even started UNC’s boot camp, I had heard JavaScript was extremely difficult. JavaScript became the hurdle to overcome, the practically inaccessible mountain to climb. Now that I’m 6 weeks and 6 assignments into the boot camp, I can answer the question: Is JavaScript as hard as they say it is? The answer is complicated.  
+        </p>
+        <p class="paragraph" id="p2">
+            JavaScript requires a different way of thinking. HTML, and even CSS to some degree, feel intuitive. At first, JavaScript feels like a foreign language. The hardest part for me, as a former math teacher, is that I wanted everything to be about functions. When I thought about functions, I was thinking about functions in math. In mathematics, the function (f(x)) takes an equation, with variables, and brings numbers to life. It paints a math picture on a coordinate plane; it allows us to create, to explain, to show how things work. The function is the center of the math universe, in a way, although not all equations are functions, but that’s another story. The center of the JavaScript universe is the object. Everything is an object. It is an object-based programming language. The window of the browser is an object. The data we use to render elements is an object. We can create objects to store information. A function in JavaScript stores information and explains what to do with it. It organizes the code so that we can keep track of what we want the browser to do and how the user will interact with the browser. 
+        </p>
+        <p class="paragraph" id="p3">
+            I have been focusing on JavaScript for 3 weeks now, and I’ve learned so much. I’ve gone from barely understanding what I’m doing to knowing most of what I’m doing. I’ve gone from feeling defeated to feeling empowered and excited. If I could give advice to my former self, and to anyone who wants to learn JavaScript but is intimidated by it, here are the following lessons I learned that turn JavaScript from an indecipherable foreign language into the magical building block of dynamic web design:
+        </p>
+        <ol class="list">
+            <li class="list-item" id="li1">
+           <span class="li-header"> Utilize whatever resources work for you to fill in your blind spots and solidify your JS foundation.</span>
+            <img class="blog-image" src="./assets/images/blog-images/net-ninja.png" alt="Image of Net Ninja's first JavaScript video on YouTube">
+            <p class="list-item-description" id="lid1">
+                I first used freeCodeCamp’s course, and while I learned a lot, it wasn’t the best format for me to learn. Doing helps me. Doing along with another coder, like my instructor, my tutor, or NetNinja on YouTube. As a former teacher, I know that learning is not a one-size fits all experience. Find what works for you and don’t give up! Use MDN to look up every single little thing that doesn’t make sense. Watch as many videos as you need. Every little piece adds up to a JS puzzle that starts to make sense in your brain. One of my classmates made online flashcards. Others have said looking for games to learn have helped them. JavaScript is just a different way of thinking. Every time you access the knowledge and see it in a way that works for you, you are training your brain to think in JavaScript.
+            </p>
+            </li>
+
+            <li class="list-item" id="li2">
+                <span class="li-header"> When you are ready to code yourself, don’t panic! Start with what you know, and look for pieces of functionality to think about where JS fits. </span>
+                <img class="blog-image" src="./assets/images/blog-images/mockup.png" alt="Image of the Weather Dashboard mockup">
+            <p class="list-item-description" id="lid2">
+                This one comes from my instructor and it has been one of the most helpful things I’ve used thus far. Look at how the site operates. For my most recent project, a weather dashboard, I could see the basic HTML and CSS as I looked at a gif of the site. I knew I needed to code that first. Then I looked at what was happening dynamically.
+                <ul class="li2ul">
+                    <li id="li2ul1">
+                    I could see that the user was going to input a city name, that’s a submit event and data that I will need to take and feed through my functions. 
+                    </li>
+                    <li id="li2ul2">
+                    Once the user inputted a city name, the current weather and 5-day forecast rendered on the screen. That told me that the data from a server-side API (OpenWeatherMap), would need to give the current weather and the weather for the next 5 days. That meant I would need to parse through the data and then render it dynamically using DOM manipulation.
+                    </li>
+                    <li id="li2ul3">
+                    When the site refreshed, the user was able to look at all of the places they have searched by clicking buttons and each would show the rendered current data and 5-day forecast. That meant local storage.
+                    </li>
+                </ul>
+                Taking a deep breath and breaking down the functionality piece by piece can get you further than you think!  
+            </p>
+        </li>
+
+            <li class="list-item" id="li3">
+                <span class="li-header">Pseudocode it out!</span>
+                <img class="blog-image" src="./assets/images/blog-images/pseudocode.png" alt="Image of the pseudocode from Weather Dashboard's JS file">
+                <p class="list-item-description" id="lid3">
+                Once you can put the functionality into words, write it down! Put into plain language what needs to happen and how you might make it happen. For the weather dashboard, I made an outline of what I ultimately wanted to do and then got deeper into it with pseudocode in the JS file. Talking it out, writing it out will both help you to think further on what you will need to do. Then you can flesh out each part of the pseudocode as you keep thinking. You may even have a decently clear map of what you need to code at this point!  
+                </p>
+            </li>
+
+            <li class="list-item" id="li4">
+                <span class="li-header"> Go line by line, function by function, and get it to work before you keep going.</span>
+                <img class="blog-image" src="./assets/images/blog-images/consolelog.png" alt="Image of console.logs to check the functionality of a submission handler">
+            <p class="list-item-description" id="lid4">
+            This one is from my tutor and my instructor. When I needed help with the formatting of my 2nd assignment, my portfolio, my tutor commented out everything except the header and we worked together to fix it and work our way down. I never forgot that and have been coding that way ever since. Don’t try to make the whole thing work, just get a function to execute by console logging. Use the Chrome Dev Tools to see what’s going on behind the scenes. When you feel confident that you are in a good place to keep going, try coding the next line or set of lines. Console log any variables, data, see how they show up!
+            </p>
+            </li>
+
+            <li class="list-item" id="li5">
+                <span class="li-header"> You don’t have to go it alone! Don’t, if you can help it.</span>
+                <p class="list-item-description" id="lid5">
+                This doesn’t mean that you shouldn’t code or create on your own. You don’t want to lean on someone else’s code entirely. If you are stuck, ask for help. Talk it through with a coder or, in my case, a fellow classmate. Tell them what you are thinking. Tell them what you have done so far. Tell them what you want to do. I was on a Google Meet with a classmate today and they said, “Start by pseudocoding! Tell me what you want to happen and we can think about what you will do next.” It was SO helpful! As we were coding and talking, my wheels started to turn and I realized that I was overthinking it and was able to get to the next part of my code. 
+                </p>
+            </li>
+
+            <li class="list-item" id="li6">
+                <span class="li-header">Sleep, eat, rest your mind!</span>
+            <p class="list-item-description" id="lid6">
+            I’m currently stuck. I’m right at the finish line and I can’t seem to figure out how to get over it. I am able to attend office hours tomorrow to talk to a TA, but maybe that isn’t an option for you. So what do you do? Get some sleep. I know it sounds cliché, but my brain gets fried and I will overlook the missing curly brace. It will freeze and I will feel like I can’t do it. It’s time to stop. I can’t help the coding dreams, but I can at least stop staring at my screen and slowly think about it when I’m not as overwhelmed. It helps to take a step back and give yourself the chance to recharge any way that works for you. 
+            </p>
+            </li>
+        </ol>
+
+        <p class="paragraph" id="p4">
+        These steps have changed my junior developer experience for the better. Right now, I feel like I can code 85% of my JavaScript code by myself. The next time I try to code a project, maybe I’ll get 90% of the way there. I will also accept that no one is really 100% of the way there without help, whether it’s looking something up on MDN or talking it through with another coder. JavaScript is worth the pain, and, I know this sounds mushy, but when I get something to work with my code and I see it unfolding on the browser, it feels like magic. 
+        </p>
+    </section>
+
+    <aside>
+        <h5>Previous Posts</h5>
+        <a href=""></a>
+    </aside>
+</main>
+</body>
+
+</html>
