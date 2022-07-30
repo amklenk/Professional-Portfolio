@@ -664,10 +664,10 @@ footer {
   }
 
   #contacttitlediv {
-    border-right: none;
     width: 70px;
-    border-bottom:  2px solid var(--secondary-color);
-    background-color: var(--primary-color);
-    color: var(--quarternary-color);
+  }
+
+  #portfoliotitlediv{
+    width: 80px;
   }
 }
