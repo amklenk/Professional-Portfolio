@@ -655,3 +655,19 @@ footer {
     margin: 0 auto;
   }
 }
+
+@media screen and (max-width: 422px){
+  .nav-links li {
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+
+  #contacttitlediv {
+    border-right: none;
+    width: 70px;
+    border-bottom:  2px solid var(--secondary-color);
+    background-color: var(--primary-color);
+    color: var(--quarternary-color);
+  }
+}
